@@ -1,0 +1,15 @@
+{
+    "dart.debugExternalPackageLibraries": true,
+    "editor.codeActionsOnSave": {
+      "source.fixAll": true
+    },
+    "cSpell.words": [
+      "consts",
+      "feelslike",
+      "Geolocator",
+      "localtime",
+      "placemark",
+      "Prefs"
+    ],
+   
+}

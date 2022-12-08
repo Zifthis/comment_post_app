@@ -1,0 +1,7 @@
+{
+    "@@locale": "en",
+    "server_error": "Server Error",
+    "server_error_description": "Something went wrong!",
+    "dio_error": "Dio Error",
+    "no_internet": "Check your internet connection!"
+}
