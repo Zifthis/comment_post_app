@@ -30,4 +30,16 @@ class PostListRepo implements IPostListRepo {
       return Left(Failure.serverError.toAppFailure);
     }
   }
+
+  @override
+  EitherAppFailureOr<Posts> createPost(String id) {
+    // TODO: implement createPost
+    throw UnimplementedError();
+  }
+
+  @override
+  EitherAppFailureOr<Posts> editPost(String id) {
+    // TODO: implement editPost
+    throw UnimplementedError();
+  }
 }

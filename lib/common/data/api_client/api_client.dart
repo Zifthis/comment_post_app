@@ -12,4 +12,15 @@ abstract class ApiClient {
   Future<List<PostsResponse>> getListOfPosts({
     @Path('id') required String id,
   });
+
+  @POST("/posts")
+  Future<PostsResponse> createPost({
+    @Body() required PostsResponse postResponse,
+  });
+
+  @PUT("/posts/{id}")
+  Future<PostsResponse> editPost({
+    @Path('id') required String id,
+    @Body() required PostsResponse postResponse,
+  });
 }
